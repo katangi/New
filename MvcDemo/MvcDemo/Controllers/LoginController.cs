@@ -24,6 +24,7 @@ namespace MvcDemo.Areas.Customer.Controllers
 
         {
             var a = 0;
+            var abc = 0;
             string name = username.Name;
             int id = username.Id;
             var result = (from e in ObjDatabase.Customers
